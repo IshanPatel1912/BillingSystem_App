@@ -1,2 +1,22 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings for text files
 * text=auto
+
+# --- Language stats: Flutter platform runner folders are generated scaffolding ---
+**/android/** linguist-generated
+**/ios/** linguist-generated
+**/macos/** linguist-generated
+**/linux/** linguist-generated
+**/windows/** linguist-generated
+**/web/** linguist-generated
+.idea/** linguist-vendored
+.vscode/** linguist-vendored
+
+# --- Binary files ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.jar binary
+*.db binary
